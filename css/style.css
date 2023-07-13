@@ -124,17 +124,14 @@ margin-top: 10px;
 color: #888;}
 
 main div{display: flex;
-width: 55%;
-margin: 0 auto;
+justify-content: center;
+margin: 5% auto;
 flex-wrap: wrap;
-margin-top: 3%;
-row-gap: 60px;
-column-gap: 50px;
-margin-bottom: 5%;}
+gap: 30px;
+}
 
-main div section{width: 350px;
-height: 140px;
-font-size: 70%;
+main div section{width: 25%;
+font-size: 75%;
 background-color: var(--RosaPredominante);
 border-radius: 5px;}
 
@@ -149,6 +146,7 @@ margin-bottom: 5%;}
 main div section p{width: 80%;
 margin-left: 5%;
 height: 50%;
+margin-bottom: 3%;
 color: white;}
 
 /* FOOTER */
@@ -204,7 +202,11 @@ width: 100%;}
         width: 70%;
         margin-top: 0;}
 
-    main .sesao1 p{margin-bottom: 10px;}
+    main .sesao1{margin: 0;
+    }
+
+    main .sesao1 p{
+    margin-bottom: 10px;}
 
     main .sesao1 h1{
         width: 100%;
@@ -278,7 +280,9 @@ width: 100%;}
     #b2{width: 40%;
         margin: 10px auto 0 auto; }
 
-    main .sesao1{
+    main{border: 1px solid red;}
+
+    main .sesao1{border: 1px solid black;
         box-sizing: content-box;}
 
     main .sesao1 h1{
@@ -296,12 +300,11 @@ width: 100%;}
 
     main div{
         align-items: center;
-        flex-direction: column; 
+
        }
 
     main div section{
-        width: 80%;
-        height: 200px;}
+        width: 80%;}
     
     main div section h1{
         font-size: 25px;
