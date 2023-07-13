@@ -15,7 +15,7 @@ body{font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 /* VARIAVEL */
 :root{
-    --RosaPredominante: #ff6b81
+    --RosaPredominante: #ff8040
 }
 
 /* HEADER */
@@ -280,9 +280,8 @@ width: 100%;}
     #b2{width: 40%;
         margin: 10px auto 0 auto; }
 
-    main{border: 1px solid red;}
 
-    main .sesao1{border: 1px solid black;
+    main .sesao1{
         box-sizing: content-box;}
 
     main .sesao1 h1{
