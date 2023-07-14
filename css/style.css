@@ -24,19 +24,21 @@ header{grid-area: cabecalho;
 background-color: var(--RosaPredominante);
 color: aliceblue;}
 
-header .container_logo{display: flex; 
+header .container_logo{display: flex;
 justify-content: space-between;
-height: 60px;}
+}
 
 .logo{display: flex;
-width:250px;
+width: 12%;
 margin-left: 150px;
-margin-top: 8px;}
+margin-top: 8px;
+}
 
-.logo img{width: 50px;}
+.logo img{width: 50px; }
 
 .logo h1{font-size: 20px;
-margin-top: 5px;}
+margin-left: 3%;
+margin-top: 3%;}
 
 .botao{box-sizing: border-box;
 margin-top: 15px;
@@ -64,17 +66,19 @@ justify-content: space-around;
 
 .container_conteudo section{margin-top: 17%;
 margin-left: 9%;
-width: 25%;
-height: 300px;}
+width: 30%;
+height: 300px;
+}
 
 .container_conteudo section h1{margin-bottom: 40px;
 font-size: 200%;}
 
 
-.container_conteudo section p{font-size: 80%;}
+.container_conteudo section p{font-size: 90%;}
 
-.container_conteudo section button{margin-top: 5%;
-font-size: 80%;
+.container_conteudo section button{
+    margin-top: 5%;
+/* font-size: 80%; */
 padding: 3%;
 border-radius: 5px;
 background-color: var(--RosaPredominante);
@@ -106,7 +110,7 @@ main .sesao1{text-align: center;}
 
 main .sesao1 p{
 margin-top: 4%;
-font-size: 90%;
+font-size: 100%;
 color: var(--RosaPredominante);
 }
 
